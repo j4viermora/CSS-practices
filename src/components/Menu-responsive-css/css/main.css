@@ -62,7 +62,7 @@ body{
 }
 
 .nav__input:checked + .nav__menu{
-    background: tomato;
+    background: #F2A30F;
 }
 
 @media (max-width: 720px ){
@@ -74,7 +74,7 @@ body{
         position: fixed;
         top: 5rem;
         bottom: 0;
-        background: tomato;
+        background: #F2A30F;
         width: 100%;
         left: 0;
         display: flex;
