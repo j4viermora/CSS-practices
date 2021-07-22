@@ -1,0 +1,47 @@
+<!-- TODO search icons social media -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>FAV</title>
+</head>
+<body>
+    <div class="action" onclick="actionToggle();">
+        <span>+</span>
+        <ul>
+            <li>
+                <img src="" alt="">
+                Share on facebook
+            </li>
+            <li>
+                <img src="" alt="">
+                Share on Pinterest
+            </li>
+            <li>
+                <img src="" alt="">
+                Share on Twitter
+            </li>
+            <li>
+                <img src="" alt="">
+                Share on Instragram
+            </li>
+            <li>
+                <img src="" alt="">
+                Share on Linkdin
+            </li>
+        </ul>
+    </div>
+    <script>
+        function actionToggle(){
+            let action = document.querySelector(".action");
+
+            action.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
